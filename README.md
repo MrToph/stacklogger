@@ -5,7 +5,7 @@ It works best in the chrome dev tools:
 
 ![stacklogger console output chrome](/README/stacklogger-console-chrome.png "Chrome output")
 
-Firefox also works, but with their JS engine there is no way (I know of) to reliably get the class name, so the filename is used instead (which should be fine because you keep your code modularized anyway).
+Firefox also works, but with their JS engine there is no way (I know of) to reliably get the class name, so the filename is used instead (which should be fine because you keep your code modularized anyway :wink:).
 
 ![stacklogger console output firefox](/README/stacklogger-console-firefox.png "Firefox output")
 
