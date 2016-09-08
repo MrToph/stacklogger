@@ -1,7 +1,7 @@
 const consoleLog = console.log.bind(console)
 
 const chromeRegex = new RegExp('^\\s*?at\\s*(\\S*?)\\s') // at ExampleConsoleLog.hello (example.js:93)
-const firefoxRegex = new RegExp('^\\s*(\\S*?)@\\S*\\/(\\S*)\\.') // hello@file:///C:/Users/Christoph/Dropbox/workspace/WebDevelopment/stacklogger/distribution/example.js:78:9
+const firefoxRegex = new RegExp('^\\s*(\\S*?)@\\S*\\/(\\S*)\\.') // hello@file:///~~~~~~/stacklogger/distribution/example.js:78:9
 export default function log () {
   let stackframe = (new Error()).stack.split('\n')
   // try to match chrome first
