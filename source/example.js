@@ -1,4 +1,3 @@
-// import log, { hookConsoleLog } from 'stacklogger'
 import log, { hookConsoleLog } from '../source'
 
 class ExampleLog {

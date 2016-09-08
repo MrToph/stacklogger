@@ -1,6 +1,6 @@
 {
   "name": "stacklogger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Colored JavaScript logging library that prepends the current class and function name to the message for ease of debugging.",
   "license": "MIT",
   "repository": {
@@ -8,6 +8,14 @@
     "url": "git@github.com:MrToph/stacklogger.git"
   },
   "author": "Christoph Michel",
+  "keywords": [
+    "log",
+    "logger",
+    "javascript",
+    "stack",
+    "caller",
+    "color"
+  ],
   "main": "distribution/index.js",
   "scripts": {
     "build": "babel source --presets babel-preset-es2015 --out-dir distribution --ignore example.js",
@@ -19,14 +27,6 @@
       "es2015"
     ]
   },
-  "keywords": [
-    "log",
-    "logger",
-    "javascript",
-    "stack",
-    "caller",
-    "color"
-  ],
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-core": "^6.14.0",
