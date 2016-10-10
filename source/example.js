@@ -11,7 +11,7 @@ class ExampleLog {
 }
 
 class ExampleConsoleLog {
-  hello () {
+  _hello () {
     console.log('Called with console.log')
   }
 }
@@ -23,7 +23,7 @@ e1.hello()
 console.log('standard console.log without the hook')
 hookConsoleLog()
 console.log('console.log hooked now')
-e2.hello()
+e2._hello()
 
 /**
  * Converts an HSL color value to RGB. Conversion formula
